@@ -1,0 +1,62 @@
+/* Add your custom styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color for better readability */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form {
+    background-color: #f8f9fa; /* Light gray background color for the form section */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.features {
+    background-color: #fff; /* White background color for the features section */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features .feature i {
+    color: #007bff; /* Blue color for feature icons */
+}
+
+.features h3 {
+    color: #007bff; /* Blue color for feature titles */
+}
+
+.features p {
+    color: #555; /* Dark gray color for feature descriptions */
+}

@@ -1,62 +1,238 @@
-/* Add your custom styles here */
-
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color for better readability */
+    background-color: #f4f7fa; /* Light grey background for the page */
+    color: #333; /* Dark text color for readability */
 }
 
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+/* Navbar */
+.navbar {
+    background-color: #007bff;
 }
 
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* Header Section */
 .header {
-    background-color: #343a40;
+    background-color: #007bff;
     color: #fff;
-    padding: 15px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
-.footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
+.header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.header .btn {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 30px;
+}
+
+.header .btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Form Section */
 .form {
-    background-color: #f8f9fa; /* Light gray background color for the form section */
-    padding: 20px;
-    margin-top: 20px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.form .form-control {
+    font-size: 1.125rem;
+    padding: 15px;
     border-radius: 10px;
 }
 
+.form .btn {
+    font-size: 1.25rem;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
 .features {
-    background-color: #fff; /* White background color for the features section */
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
+    background-color: #f8f9fa;
 }
 
 .features .feature {
-    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.features .feature:hover {
+    transform: translateY(-10px);
 }
 
 .features .feature i {
-    color: #007bff; /* Blue color for feature icons */
+    color: #007bff;
 }
 
 .features h3 {
-    color: #007bff; /* Blue color for feature titles */
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 20px;
 }
 
 .features p {
-    color: #555; /* Dark gray color for feature descriptions */
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa; /* Light grey background for the page */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* Header Section */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.header .btn {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 30px;
+}
+
+.header .btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Form Section */
+.form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.form .form-control {
+    font-size: 1.125rem;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form .btn {
+    font-size: 1.25rem;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+    background-color: #f8f9fa;
+}
+
+.features .feature {
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.features .feature:hover {
+    transform: translateY(-10px);
+}
+
+.features .feature i {
+    color: #007bff;
+}
+
+.features h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.features p {
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 1rem;
 }
